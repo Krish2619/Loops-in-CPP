@@ -12,69 +12,93 @@ ALGORITHMS:
 
 Algorithm 1: Print even numbers from 1 to 10
 1. Start
-2. - For i from 1 to 10 do:
-   - a. If i is divisible by 2 (i % 2 == 0)
-   - i. Print i
+2. For i from 1 to 10 do:
+   
+    a. If i is divisible by 2 (i % 2 == 0)
+    
+    i. Print i
 3. End
 
 Algorithm 2: Print "Symbiosis" 5 times with numbering
 1. Start
-2. - For i from 0 to 4 do:
-   - a. Print (i+1).Symbiosis
+2.  For i from 0 to 4 do:
+  
+    a. Print (i+1).Symbiosis
 3. End
 
 Algorithm 3: Print odd numbers less than 10 using continue
 1. Start
-2. - For i from 1 to 9 do:
-   - a. If i is even, skip the iteration (continue)
-   - b. Else print i
+2.  For i from 1 to 9 do:
+  
+    a. If i is even, skip the iteration (continue)
+    
+    b. Else print i
 3. End
 
 Algorithm 4: Print half pyramid of stars increasing from 1 to 6 rows
 1. Start
-2. - For i from 1 to 6 do:
-   - a. For j from 1 to i do:
-   - i. Print "* "
-   - b. Print newline
+2.  For i from 1 to 6 do:
+
+    a. For j from 1 to i do:
+    
+    i. Print "* "
+    
+    b. Print newline
+    
 3. End
 
 Algorithm 5: Print inverted half pyramid of stars from 6 to 1 rows
 1. Start
-2. - For i from 6 down to 1 do:
-   - a. For j from 1 to i do:
-   - i. Print "* "
-   - b. Print newline
+2.  For i from 6 down to 1 do:
+
+    a. For j from 1 to i do:
+    
+    i. Print "* "
+    
+    b. Print newline 
 3. End
 
 Algorithm 6: Print right-aligned half pyramid of stars with 6 rows
 1. Start
-2. - For i from 1 to 6 do:
-   - a. Print (6 - i) spaces
-   - b. Print i stars with spaces
-   - c. Print newline
+2.  For i from 1 to 6 do:
+ 
+    a. Print (6 - i) spaces
+    
+    b. Print i stars with spaces
+    
+    c. Print newline
 3. End
 
 Algorithm 7: Print inverted right-aligned half pyramid of stars with 6 rows
 1. Start
-2. - For i from 6 down to 1 do:
-   - a. Print (i + 1) spaces
-   - b. Print (6 - i + 1) stars with spaces
-   - c. Print newline
+2.  For i from 6 down to 1 do:
+  
+    a. Print (i + 1) spaces
+    
+    b. Print (6 - i + 1) stars with spaces
+    
+    c. Print newline
+    
 3. End
 
 Algorithm 8: Print Floyd’s triangle with numbers up to 10
 1. Start
 2. Initialize variable a = 1
-3. - For i from 0 to 3 do:
-   - a. For j from 0 to i do:
-   -  Print a and increment a by 1
-   - b. Print newline
+3.  For i from 0 to 3 do:
+   
+    a. For j from 0 to i do:
+    
+    Print a and increment a by 1
+    
+    b. Print newline
+    
 4.End
 
 Algorithm 9: Print numbers from 1 to 20
 1. Start
-2. - For i from 1 to 20 do:
-   - a. Print i
+2. For i from 1 to 20 do:
+   
+   a. Print i
 3. End
 
 Algorithm 10: Simple password check
@@ -83,6 +107,7 @@ Algorithm 10: Simple password check
 3. Input string in from user
 4. If length of in is not equal to length of pass, print "The password is wrong" and end
 5. Else, for each character position i from 0 to length of pass - 1:
+
   a. If pass[i] is not equal to in[i], print "The password is wrong" and end
 6. If all characters match, print "The password is correct"
 7. End
